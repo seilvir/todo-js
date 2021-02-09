@@ -1,0 +1,26 @@
+{
+  "name": "todo-js",
+  "version": "1.0.0",
+  "description": "Todo project js learnign",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seilvir/todo-js.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Pawel S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seilvir/todo-js/issues"
+  },
+  "homepage": "https://github.com/seilvir/todo-js#readme",
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
