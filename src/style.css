@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Verdana, sans-serif;
-    color: #665544;
+    color: red;
     text-align: center;}
    #nav, #feature, .article, #footer {
     background-color: #efefef;
@@ -18,10 +18,38 @@ body {font font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
     min-width: 960px;
+    font-size: 100%;
 }
 
+#naglowki_zadan { font-family: fantasy, Helvetica, sans-serif;
+  color: green;
+  text-align: center;
+ font-size: 150%;
+}
+textarea.formularz{
+  width: 250px;
+  height: 5em;
+  color:dark;
+  font-size: medium;
+  max-width: 120%;
+  
+}
+option {
+  font-weight: bold;
+  font-language-override: initial;
+  color:darkslategray;
+}
 
+select {
+  font-weight: bold;
+  font-language-override: initial;
+  background: pink;
+  color:darkslategray;
 
+}
+#omg {
+  color:orange;
+}
 #tytul_gora{
     color:lightblue;
     font-size: larger;

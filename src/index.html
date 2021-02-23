@@ -15,15 +15,48 @@
 <body>
     <h1><P id="tytul_gora">OTO STRONA TO DO !</P></h1>
     <div class="container_12 clearfix">
-        <div class="container_12 grid_4">
-        <p>Oto co jest do nauki</p>
+        <div class="container_12 grid_3">
+        <form class="formularz" action ="index.html">
+            <p id="naglowki_zadan">Dodawania zadania</p>
+            <input type="text" placeholder="Podaj dodawane zadanie"/>
+            <input type="submit" value="Wysyłaj"/>
+        </form>
         </div>
-        <div class="container_12 grid_4">
-        <p>To jest w trakcie nauki</p>
+        <div class="container_12 grid_3">
+        <div id="list_todo_form">
+            <p id="naglowki_zadan">Lista dodanych już zadań</p>
+        <form class="formularz" action ="index.html">
+                <select name="zrobione_zadania" size="5">
+                    <option value="pierwsze"  /> Pierwsze zadanie</option>
+                    <option value="drugie" /> Drugie zadanie</option>
+                    <option value="trzecie" /> Trzecie zadanie</option>
+                    <option value="czwarte" />Czwarte zadanie</option>
+                </select>
+            </p>
+        </form>
+            </div>
+        
         </div>
-        <div class="container_12 grid_4">
-        <p>A tego sie już nauczyłem</p>
+        <div class="container_12 grid_3">
+            <p id="naglowki_zadan">Usun zadanie</p>
+        <form class="formularz" action ="index.html">
+					<select name="do_usuniecia_zadania" size="5" multiple="multiple">
+						<option value="pierwsze" selected="selected" /> Pierwsze zadanie do usuniecia</option>
+						<option value="drugie" /><p id="omg">Drugie zadanie do usuniecia</p></option>
+						<option value="trzecie" /> Trzecie zadanie do usuneiecia</option>
+                        <option value="czwarte" />Czwarte zadanie do usuniecia</option>
+                        <input type="submit" value="Usun wybrane"/>
+                    </select>
+			</form>
+            
         </div>
+        <div class="container_12 grid_3">
+            <p id="naglowki_zadan">Usuwanie wszystkie zadanie</p>
+        <form class="formularz" action="index.html">
+				<input type="submit" value="Usun wszystkie"/>
+			</form>
+        </div>
+            
     </div>
     </body>
 </body>
